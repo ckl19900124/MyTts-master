@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+	package
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:3:5-36
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:1-71:12
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:2:11-69
+application
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:5:5-70:19
+activity#com.iflytek.voicedemo.MainActivity
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:6:9-11:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:11:13-49
+	android:label
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:10:13-35
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:8:13-133
+	android:icon
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:9:13-42
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:7:13-62
+activity#com.iflytek.speech.setting.TtsSettings
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:12:9-74
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:12:19-72
+activity#com.iflytek.speech.setting.IatSettings
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:13:9-74
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:13:19-72
+activity#com.iflytek.voicedemo.IatDemo
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:14:9-17:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:17:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:16:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:15:13-57
+activity#com.iflytek.voicedemo.AsrDemo
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:18:9-21:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:21:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:20:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:19:13-57
+activity#com.iflytek.voicedemo.TtsDemo
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:22:9-25:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:24:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:23:13-57
+activity#com.iflytek.voicedemo.IseDemo
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:26:9-29:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:28:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:27:13-57
+activity#com.iflytek.voicedemo.vocalverify.VocalVerifyDemo
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:30:9-33:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:32:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:31:13-77
+activity#com.iflytek.voicedemo.faceonline.OnlineFaceDemo
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:34:9-37:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:37:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:36:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:35:13-75
+activity#com.iflytek.voicedemo.IdentifyGroup.GroupManagerActivity
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:38:9-41:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:41:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:40:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:39:13-84
+activity#com.iflytek.voicedemo.IdentifyGroup.FaceIdentifyActivity
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:42:9-45:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:45:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:44:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:43:13-84
+activity#com.iflytek.voicedemo.IdentifyGroup.VocalIdentifyActivity
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:46:9-49:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:49:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:48:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:47:13-85
+activity#com.iflytek.voicedemo.IdentifyGroup.ResultIdentifyActivity
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:50:9-53:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:53:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:52:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:51:13-86
+activity#com.iflytek.speech.setting.IseSettings
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:54:9-57:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:57:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:56:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:55:13-66
+activity#com.iflytek.speech.setting.UrlSettings
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:58:9-61:51
+	android:screenOrientation
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:61:13-49
+	android:configChanges
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:60:13-133
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:59:13-66
+meta-data#IFLYTEK_APPKEY
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:63:9-65:42
+	android:value
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:65:13-29
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:64:13-42
+meta-data#IFLYTEK_CHANNEL
+ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:66:9-68:44
+	android:value
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:68:13-41
+	android:name
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml:67:13-43
+uses-sdk
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+		ADDED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml
+		INJECTED from G:\demo\gaodeMap\MyTts-master\speechDemo\src\main\module\AndroidManifest.xml

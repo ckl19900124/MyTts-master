@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.iflytek.mscv5plusdemo">
+
+    <application
+        android:name="com.example.base.BaseApplication"
+        android:icon="@drawable/icon"
+        android:label="讯飞语音示例v5+"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name="com.iflytek.mscv5plusdemo.MainActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:icon="@drawable/icon"
+            android:label="讯飞语音示例v5+"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iflytek.mscspeech.setting.TtsSettings" />
+        <activity android:name="com.iflytek.mscspeech.setting.IatSettings" />
+        <activity
+            android:name="com.iflytek.mscv5plusdemo.IatDemo"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iflytek.mscv5plusdemo.AsrDemo"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iflytek.mscv5plusdemo.TtsDemo"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iflytek.mscv5plusdemo.IvwActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iflytek.mscv5plusdemo.WakeDemo"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.iflytek.mscv5plusdemo.OneShotDemo"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

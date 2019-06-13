@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+
+//获取properties
+def keystorePropertiesFile = rootProject.file("sign.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    //添加
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+        debug {
+            keyAlias keystoreProperties['keyAlias_debug']
+            keyPassword keystoreProperties['keyPassword_debug']
+            storeFile file(keystoreProperties['storeFile_debug'])
+            storePassword keystoreProperties['storePassword_debug']
+        }
+    }
+
+    def android = rootProject.ext.android
+    compileSdkVersion android["compileSdkVersion"]
+    buildToolsVersion android.buildToolsVersion
+    defaultConfig {
+        applicationId android.applicationId
+        minSdkVersion android.minSdkVersion
+        targetSdkVersion android.targetSdkVersion
+        versionCode android.versionCode
+        versionName android.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //修改
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //修改
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        targetCompatibility = '1.8'
+        sourceCompatibility = '1.8'
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    def dependencies = rootProject.ext.dependencies
+    implementation dependencies["constraint-layout"]
+    implementation dependencies["appcompat-v7"]
+    implementation dependencies.design
+    if (!rootProject.ext.isMscApplication) {
+        implementation project(':mscV5PlusDemo')
+    }
+    if (!rootProject.ext.isSpeechApplication) {
+        implementation project(':speechDemo')
+    }
+}

@@ -1,0 +1,4 @@
+#Tue Jun 11 22:57:47 CST 2019
+base.0=D\:\\Users\\able\\AndroidStudioProjects\\MyTts\\mscV5PlusDemo\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex
